@@ -1,0 +1,472 @@
+body{
+    margin: 0;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.container{
+    margin: 0;
+    background-color: rgb(24, 24, 24);
+}   
+
+
+
+.image1{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-image: url('assets/IN-en-20220307-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.image1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7)
+}
+
+
+.image2{
+    width: 160px;
+    position:absolute;
+    top: 30px;
+    left: 70px;
+}
+.heading{
+     position:absolute;
+    top: 190px;
+    left: 580px;
+    color: #fff;
+    font-size: 60px;
+}
+.heading2{
+    position: absolute;
+    top: 260px;
+    left: 648px;
+    color: #fff;
+    font-size: 60px;
+}
+.para{
+    position: absolute;
+    color: #fff;
+    top: 350px;
+    left: 680px;
+    font-size: 25px;
+
+}
+.para1{
+    position: absolute;
+    top: 430px;
+    left: 580px;
+    color: #fff;
+    font-size: 18px;
+
+}
+.email{
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    top: 500px;
+    left: 500px;
+}
+.btn-email{
+    position: absolute;
+    top: 500px;
+    left: 1008px;
+    width: 250px;
+    height: 70px;
+    font-size: 29px;
+    color: #fff;
+    background-color: rgb(214, 0, 0);
+    border: none;
+
+}
+.btn2-singIn{
+    position: absolute;
+    top: 29px;
+    left: 1710px;
+    width: 90px;
+    height: 33px;
+    color: #fff;
+    background-color: rgb(214, 0, 0);
+    border: rgb(214, 0, 0);
+}
+.choose{
+    color: #fff;
+    border: #fff;
+    background-color: rgb(7, 1, 1);
+}
+.div1{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    margin-top: 3px;
+    background-color: black;
+}
+.image3{
+    position: absolute;
+   top: 20px;
+   left: 1050px;
+   height: 350px;
+}
+.video1{
+    position:absolute;
+    top: 90px;
+    left: 1028px;
+    width: 500px;
+    height: 200px;
+}
+.head1{
+    position: absolute;
+    color: #fff;
+    top: 115px;
+    left: 358px;
+    font-size: 50px;
+
+}
+.para2{
+    position: absolute;
+    color: #fff;
+    top: 190px;
+    left: 358px;
+    font-size: 30px;
+}
+.div2{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    margin-top: 7px;
+    background-color: black;
+}
+.image4{
+    position: absolute;
+    top: 9px;
+    left: 320px;
+    height: 350px;
+}
+.head2{
+    position: absolute;
+    top: 70px;
+    left: 920px;
+    color: #fff;   
+    font-size: 50px;
+}
+.para3{
+    position: absolute;
+    color: #fff;
+    top: 210px;
+    left: 920px;
+    font-size: 30px;
+
+}
+.div3{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    margin-top: 7px;
+    background-color: black;
+}
+.head3{
+    position: absolute;
+    top: 160px;
+    left: 370px;
+    color: #fff;
+    font-size: 50px;
+}
+.para4{
+    position: absolute;
+    top: 240px;
+    left: 365px;
+    color: #fff;
+    font-size: 30px;
+}
+.video2{
+    position: absolute;
+    top: 40px;
+    left: 1100px;
+    height: 300px;
+    width: 350px;
+
+}
+.image5{
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+    height: 450px;
+    width: 550px;
+
+}
+.div4{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    margin-top: 7px;
+    background-color: black;
+}
+.image6{
+    position: absolute;
+    top: 50px;
+    left: 380px;
+    width: 500px;
+
+}
+.head4{
+    color:#fff ;
+    position: absolute;
+    top: 120px;
+    left: 900px;
+    font-size: 50px;
+}
+.para5{
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    left: 900px;
+    font-size: 30px;
+}
+.div5{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    margin-top: 7px;
+    background-color: black;
+}
+.head5{
+    position: absolute;
+    color: #fff;
+    top: 30px;
+    left: 550px;
+    font-size: 50px;
+    
+}
+.btn-faq{
+    position: relative;
+    top: 180px;
+    left: 490px;
+    width: 800px;
+    height: 80px;
+    background-color: rgb(46, 46, 46);
+}
+.faq-item{
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    color: #fff ;
+    font-size: 30px;
+}
+.btn-faq2{
+    position: relative;
+    top: 188px;
+    left: 490px;
+    width: 800px;
+    height: 80px;
+    background-color: rgb(46, 46, 46);
+}
+.faq-item2{
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+.btn-faq3{
+    position: relative;
+    top: 196px;
+    left: 490px;
+    width: 800px;
+    height: 80px;
+    background-color: rgb(46, 46, 46);
+}
+.faq-item3{
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    font-size: 30px;
+    color: #fff;
+
+}
+.btn-faq4{
+    position: relative;
+    top: 204px;
+    left: 490px;
+    width: 800px;
+    height: 80px;
+    background-color: rgb(46, 46, 46);
+}
+.faq-item4{
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+.btn-faq5{
+    position: relative;
+    top: 212px;
+    left: 490px;
+    width: 800px;
+    height: 80px;
+    background-color: rgb(46, 46, 46);
+}
+.faq-item5{
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+.btn-faq6{
+    position: relative;
+    top: 220px;
+    left: 490px;
+    width: 800px;
+    height: 80px;
+    background-color: rgb(46, 46, 46);
+}
+.faq-item6{
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    font-size: 30px;
+    color: #fff;
+}
+.para6{
+    position: absolute;
+    color: #fff;
+    top: 750px;
+    left: 560px;
+    font-size: 20px;
+}
+.email2{
+    position: absolute;
+    width: 500px;
+    height: 68px;
+    top: 800px;
+    left: 500px;
+}
+.btn-email2{
+    position: absolute;
+    top: 800px;
+    left: 1008px;
+    width: 250px;
+    height: 73px;
+    font-size: 29px;
+    color: #fff;
+    background-color: rgb(214, 0, 0);
+    border: none;
+
+}
+.footer{
+    position: relative;
+    margin: 0;
+    margin-top: 7px;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+
+}
+.questions-footer{
+    position: absolute;
+    top: 60px;
+    left: 500px;
+    font-size: 15px;
+    color: rgb(134, 134, 134);
+}
+.number{
+    color: rgb(134, 134, 134);
+}
+.footer-list{
+    position: absolute;
+    top: 105px;
+    left: 450px;
+    list-style: none;
+    font-size: 12px;
+}
+.footer-list li{
+    padding: 10px;
+}
+.footer-list2{
+    position: absolute;
+    top: 105px;
+    left: 650px;
+    list-style: none;
+    font-size: 12px;
+}
+.footer-list2 li{
+    padding: 10px;
+}
+.footer-list3{
+    position: absolute;
+    top: 105px;
+    left: 850px;
+    list-style: none;
+    font-size: 12px;
+}
+.footer-list3 li{
+    padding: 10px;
+}
+.footer-list4{
+    position: absolute;
+    top: 105px;
+    left: 1050px;
+    list-style: none;
+    font-size: 12px;
+}
+.footer-list4 li{
+    padding: 10px;
+}
+a{
+    
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+}
+
+.language {
+    position: absolute;
+    gap: 1rem;
+    top: 2%;
+    right: 10rem;
+    padding: 1rem;
+    border: 1px solid rgb(134, 134, 134);
+    background-color: rgb(7, 1, 1);
+}
+
+.language svg {
+    fill: white;
+    height: 1rem;
+    width: 1rem;
+}
+.language2 svg {
+    fill: rgb(134, 134, 134);
+    height: 1rem;
+    width: 1rem;
+}
+.language2 {
+    position: absolute;
+    gap: 1rem;
+    top: 290px;
+    left: 498px;
+    display: flex;
+    padding: 1rem;
+    border: 1px solid rgb(134, 134, 134);
+    background-color: rgb(0, 0, 0);
+}
+.choose2{
+    color: rgb(134, 134, 134);
+    border: none;
+    background-color: rgb(7, 1, 1);
+}
+.end{
+    position: absolute;
+    color: rgb(134, 134, 134);
+    top: 350px;
+    left: 500px;
+    font-size: 15px;
+}
